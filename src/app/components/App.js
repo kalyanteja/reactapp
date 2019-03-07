@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import PersonComp from './Person/Person';
-import Person2Comp from './Person2/Person2';
+import '../../App.css';
+import PersonComp from './Person';
+import Person2Comp from './Person2';
 
 class App extends Component {
 
