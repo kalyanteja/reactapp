@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppComp from './App';
+import MainComp from './Main';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<AppComp />, document.getElementById('root'));
+ReactDOM.render(<MainComp />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
